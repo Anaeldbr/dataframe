@@ -5,7 +5,7 @@ typedef struct {
     int num_rows;        // Number of rows in the dataframe
     int num_columns;     // Number of columns in the dataframe
     int** data;          // 2D array to store data
-    char** column_names; // Array to store column names
+    char** column_names;
 } CDataframe;
 
 CDataframe* create_cdataframe();
